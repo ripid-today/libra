@@ -1,0 +1,151 @@
+================================================================================
+PRML TEXTBOOK EXTRACTION COMMANDS
+================================================================================
+Generated: 2025-04-18
+
+INSTRUCTIONS:
+1. Copy ONE command at a time from this file
+2. Paste it into the pi terminal
+3. Wait for completion (2-3 minutes per command)
+4. Copy the next command
+5. Repeat until all commands are done
+
+Estimated total time: 2-3 hours
+Recommended: Do this overnight
+
+OUTPUT LOCATION: C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\
+
+================================================================================
+
+--- CHAPTER 1: INTRODUCTION (Pages 1-66) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="1-30" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part1.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="31-60" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part2.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="61-66" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part3.md"
+
+# After all 3 parts complete, merge them:
+# read "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part1.md" "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part2.md" "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part3.md" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01 - Introduction.md"
+
+
+--- CHAPTER 2: PROBABILITY DISTRIBUTIONS (Pages 67-136) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="67-96" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\02 - Probability Distributions.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="97-126" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\02 - Probability Distributions.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="127-136" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\02 - Probability Distributions.md"
+
+
+--- CHAPTER 3: LINEAR MODELS FOR REGRESSION (Pages 137-178) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="137-166" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\03 - Linear Models for Regression.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="167-178" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\03 - Linear Models for Regression.md"
+
+
+--- CHAPTER 4: LINEAR MODELS FOR CLASSIFICATION (Pages 179-224) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="179-208" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\04 - Linear Models for Classification.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="209-224" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\04 - Linear Models for Classification.md"
+
+
+--- CHAPTER 5: NEURAL NETWORKS (Pages 225-290) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="225-254" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\05 - Neural Networks.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="255-284" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\05 - Neural Networks.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="285-290" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\05 - Neural Networks.md"
+
+
+--- CHAPTER 6: KERNEL METHODS (Pages 291-324) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="291-320" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\06 - Kernel Methods.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="321-324" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\06 - Kernel Methods.md"
+
+
+--- CHAPTER 7: SPARSE KERNEL MACHINES (Pages 325-358) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="325-354" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\07 - Sparse Kernel Machines.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="355-358" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\07 - Sparse Kernel Machines.md"
+
+
+--- CHAPTER 8: GRAPHICAL MODELS (Pages 359-422) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="359-388" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\08 - Graphical Models.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="389-418" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\08 - Graphical Models.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="419-422" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\08 - Graphical Models.md"
+
+
+--- CHAPTER 9: MIXTURE MODELS AND EM (Pages 423-460) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="423-452" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\09 - Mixture Models and EM.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="453-460" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\09 - Mixture Models and EM.md"
+
+
+--- CHAPTER 10: APPROXIMATE INFERENCE (Pages 461-522) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="461-490" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\10 - Approximate Inference.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="491-520" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\10 - Approximate Inference.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="521-522" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\10 - Approximate Inference.md"
+
+
+--- CHAPTER 11: SAMPLING METHODS (Pages 523-558) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="523-552" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\11 - Sampling Methods.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="553-558" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\11 - Sampling Methods.md"
+
+
+--- CHAPTER 12: CONTINUOUS LATENT VARIABLES (Pages 559-604) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="559-588" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\12 - Continuous Latent Variables.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="589-604" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\12 - Continuous Latent Variables.md"
+
+
+--- CHAPTER 13: SEQUENTIAL DATA (Pages 605-652) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="605-634" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\13 - Sequential Data.md"
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="635-652" format="text" | tee -a "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\13 - Sequential Data.md"
+
+
+--- CHAPTER 14: COMBINING MODELS (Pages 653-676) ---
+
+extract_doc_parse file="C:\Users\uyenl\Downloads\Pattern Recognition and Machine Learning (Christopher M. Bishop) (z-library.sk, 1lib.sk, z-lib.sk).pdf" pages="653-676" format="text" | save "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\14 - Combining Models.md"
+
+
+================================================================================
+CLEANUP COMMANDS (run after all extractions complete)
+================================================================================
+
+# Delete temporary part files from Chapter 1
+del "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\01-Introduction-part*.md"
+
+# List all created files to verify
+dir "C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\*.md"
+
+================================================================================
+SUMMARY
+================================================================================
+
+Total commands to run: 32
+Total chapters: 14
+Total pages: 676
+Estimated time: 2-3 hours (at 2-3 minutes per command)
+
+Output files will be created in:
+C:\Users\uyenl\knowledge_base\Pattern Recognition and Machine Learning\
+
+================================================================================

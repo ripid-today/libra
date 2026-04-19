@@ -1,0 +1,27 @@
+# Core extraction library
+marker-pdf>=1.0.0
+
+# PDF processing
+pypdfium2>=4.0.0
+pdftext>=0.3.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Text processing
+ftfy>=6.0.0
+beautifulsoup4>=4.12.0
+markdownify>=0.11.0
+regex>=2023.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Optional: for LLM processing
+google-generativeai>=0.3.0
+
+# Development
+pytest>=7.0.0
+pytest-cov>=4.0.0

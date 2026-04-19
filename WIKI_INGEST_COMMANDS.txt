@@ -1,0 +1,68 @@
+================================================================================
+WIKI INGEST COMMANDS - PRML Textbook
+================================================================================
+
+INSTRUCTIONS:
+1. Copy ONE command at a time
+2. Paste into pi terminal
+3. Press Enter
+4. Wait for completion
+5. Copy next command
+6. Repeat for all 14 chapters
+
+Estimated time: 5-10 minutes total
+================================================================================
+
+--- CHAPTER 1 ---
+/wiki-ingest Sources/Books/01 - Introduction.md
+
+--- CHAPTER 2 ---
+/wiki-ingest Sources/Books/02 - Probability Distributions.md
+
+--- CHAPTER 3 ---
+/wiki-ingest Sources/Books/03 - Linear Models for Regression.md
+
+--- CHAPTER 4 ---
+/wiki-ingest Sources/Books/04 - Linear Models for Classification.md
+
+--- CHAPTER 5 ---
+/wiki-ingest Sources/Books/05 - Neural Networks.md
+
+--- CHAPTER 6 ---
+/wiki-ingest Sources/Books/06 - Kernel Methods.md
+
+--- CHAPTER 7 ---
+/wiki-ingest Sources/Books/07 - Sparse Kernel Machines.md
+
+--- CHAPTER 8 ---
+/wiki-ingest Sources/Books/08 - Graphical Models.md
+
+--- CHAPTER 9 ---
+/wiki-ingest Sources/Books/09 - Mixture Models and EM.md
+
+--- CHAPTER 10 ---
+/wiki-ingest Sources/Books/10 - Approximate Inference.md
+
+--- CHAPTER 11 ---
+/wiki-ingest Sources/Books/11 - Sampling Methods.md
+
+--- CHAPTER 12 ---
+/wiki-ingest Sources/Books/12 - Continuous Latent Variables.md
+
+--- CHAPTER 13 ---
+/wiki-ingest Sources/Books/13 - Sequential Data.md
+
+--- CHAPTER 14 ---
+/wiki-ingest Sources/Books/14 - Combining Models.md
+
+================================================================================
+AFTER ALL CHAPTERS ARE INGESTED
+================================================================================
+
+Run this to check wiki status:
+/wiki-status
+
+Or query the wiki:
+/wiki-query What is Bayesian inference?
+
+================================================================================
